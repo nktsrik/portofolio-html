@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas 1 - Artikel HTML</title>
+</head>
+
+<body>
+    <div class="banner-content">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <section class="container">
+            <div class="banner">
+                <div class="banner-left">
+                    <div class="text-banner">
+                        <h2>HTML</h2>
+                        <p>HTML merupakan singkatan dari "Hypertext Markup Language" atau "bahasa markup". Html adalah
+                            bahasa standar pemrogaman yang digunakan untuk membuat halaman website, yang diakses melalui
+                            internet.</p>
+                    </div>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"><a href="#content">Learn More</a></span>
+                    </button>
+                </div>
+
+                <div class="banner-right">
+                    <img src="img-banner.jpg" alt="bannerImage" width="100%">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="content" id="content">
+        <section class="container">
+            <div class="dasar">
+                <div class="dasar-judul">
+                    <h3>ARTIKEL HTML</h3>
+                    <h4>~ DASAR & SEJARAH HTML ~</h4>
+                </div>
+                <div class="dasar-isi">
+                    <div class="dasar-container">
+                        <div class="dasar-container-item">
+                            <p>
+                                <strong>Hypertext Markup Language atau HTML</strong> adalah bahasa markup standar yang
+                                digunakan untuk membuat halaman website dan aplikasi web. Sejarah HTML dimulai oleh Tim
+                                Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss.
+                                Versi pertamanya dirilis pada tahun 1991, dengan 18 tag. Sejak saat itu, setiap kali ada
+                                versi barunya, pasti akan selalu ada tag dan attribute (tag modifier) yang juga baru.
+                            </p>
+
+                            <p>
+                                Ketika bekerja dengan bahasa markup ini , Anda menggunakan struktur kode sederhana (tag
+                                dan attribute) untuk mark up halaman website. Misalnya, Anda membuat sebuah paragraf
+                                dengan menempatkan enclosed text di antara tag pembuka &lt;p&gt; dan tag penutup
+                                &lt;/p&gt;. Berkat popularitasnya yang terus meningkat, bahasa markup ini kini dianggap
+                                sebagai standar web resmi. Spesifikasi HTML dikelola dan dikembangkan oleh World Wide
+                                Web Consortium (W3C). Berdasarkan HTML Element Reference milik Mozilla Developer
+                                Network, saat ini ada 140 tag HTML, meskipun sebagiannya sudah tidak lagi didukung oleh
+                                beberapa versi terbaru browser.
+                            </p>
+                        </div>
+                        <div class="img-dasar-container">
+                            <img src="html5.png" alt="gambar logo html" width="256px" height="256px">
+                        </div>
+                    </div>
+
+                    <p>
+                        Kemudian, pada tahun 2014, HTML5 mulai diperkenalkan. Dengan diperkenalkannya HTML5, terdapat
+                        semantic baru seperti &lt;article&gt;, &lt;header&gt;, dan &lt;footer&gt; yang memperjelas
+                        bagian-bagian dalam konten. Nah, setelah Anda tahu apa itu HTML, selanjutnya kita akan membahas
+                        cara kerjanya.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="tag-html">
+                <div class="tag-html-judul">
+                    <!-- <h3>CARA KERJA HTML</h3> -->
+                    <h4>~ TAG HTML ~</h4>
+                </div>
+                <div class="tag-html-isi">
+                    <div class="tag-container">
+                        <p>
+                            <strong>Tag</strong> adalah tanda awalan dan akhiran dalam perintah HTML yang akan dibaca
+                            oleh web browser. Tag dibuat dengan menggunakan kurung siku <…>, di mana di dalamnya berisi
+                                nama tag. Setiap tag memiliki fungsi perintah yang berbeda-beda. Mulai dari membuat
+                                judul, paragraf, heading, cetak tebal, miring, italic, dan lainnya. Misalnya:
+                                &lt;bold&gt;. <br><br> Tag tersebut akan meminta browser untuk menampilkan teks dengan
+                                format tebal. Selain itu, tag ditulis secara berpasangan, yaitu tag pembuka dan tag
+                                penutup. Pada tag penutup ditambahkan garis miring (/) di depan nama tag. Berikut ini
+                                adalah tabel dari beberapa tag dasar yang ada di html.
+                        </p>
+                        <img src="tag.jpg" alt="" width="40%">
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>Nama Tag</th>
+                            <th>Fungsi Tag</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;html&gt;</td>
+                            <td>Tag html berfungsi untuk memulai membuat halaman HTML yang mencakup semua konten dan
+                                elemen.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>Tag head merupakan tag yang membungkus bagian header dalam dokumen HTML. Tag ini berisi
+                                judul halaman web</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>Title merupakan tag yang digunakan untuk membuat judul dari halaman. Teks yang
+                                diketikkan di dalam tag title akan ditampilkan di nama tab</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>Body merupakan tag yang mewadahi isi dari konten web</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1...h6&gt;</td>
+                            <td>Tag h1 hingga h6 merupakan tag yang digunakan untuk menuliskan judul atau teks heading
+                                dari sebuah web</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Tag p digunakan untuk membuat sebuah paragraft dalam halaman web</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <div class="elemen-html">
+                <div class="elemen-html-judul">
+                    <!-- <h3>CARA KERJA HTML</h3> -->
+                    <h4>~ ELEMEN HTML ~</h4>
+                </div>
+                <div class="elemen-html-isi">
+                    <p>
+                        <strong>Elemen</strong> merupakan komponen HTML yang berupa keseluruhan kode dari tag pembuka
+                        hingga tag penutup. Elemen terdiri dari teks dan simbol yang berupa tag pembuka, isi tag atau
+                        konten, dan tag penutup. Pada sebuah elemen juga bisa berisi elemen lainnya. Jadi elemen
+                        tersebut tak hanya berisi satu tag saja, tetapi banyak tag.
+                    </p>
+                    <br><br>
+                    <ol>
+                        <li>
+                            <h5><strong>1. Elemen Heading</strong></h5>
+                        </li>
+                        <p>Elemen heading merupakan elemen yang biasa digunakan untuk membuat judul. Elemen heading
+                            dibuah menggunakan tag &lt;h> dengan nilai 1 hingga 6. Berikut ini adalah contoh penulisan
+                            elemen heading pada html</p>
+                        <table>
+                            <tr>
+                                <th>Contoh Elemen</th>
+                                <th>Nama Elemen</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        &lt;head> <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Elemen Heading&lt;/title>
+                                        <br>&lt;/head>
+                                        <br>&lt;body>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1>
+                                        Heading 1
+                                        &lt;/h1>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2>
+                                        Heading 2
+                                        &lt;/h2>
+                                        <br>&lt;/body>
+                                    </p>
+                                </td>
+                                <td>Elemen Head</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>2. Elemen Paragraf</strong></h5>
+                        </li>
+                        <p>Elemen paragraf merupakan elemen yang digunakan untuk membuat sebuah paragraf pada html.
+                            Elemen paragraf terdiri terbentuk dari tag &lt;p> dan isinya.</p>
+                        <table>
+                            <tr>
+                                <th>Contoh Elemen</th>
+                                <th>Nama Elemen</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        &lt;head> <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Elemen Paragraf&lt;/title>
+                                        <br>&lt;/head>
+                                        <br>&lt;body>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&lt;/body>
+                                    </p>
+                                </td>
+                                <td>Elemen Paragraf</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>3. Elemen Garis Horizontal</strong></h5>
+                        </li>
+                        <p>Elemen ini digunakan untuk membentuk sebuah garis horizontal di dalam sebuah halaman web.
+                            Elemen ini dibuat menggunakan tag &lt;hr> tanpa tag penutup</p>
+                        <table>
+                            <tr>
+                                <th>Contoh Elemen</th>
+                                <th>Nama Elemen</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        &lt;head> <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Elemen Garis Horizontal&lt;/title>
+                                        <br>&lt;/head>
+                                        <br>&lt;body>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;hr>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&lt;/body>
+                                    </p>
+                                </td>
+                                <td>Elemen Garis Horizontal</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>4. Elemen Baris Baru</strong></h5>
+                        </li>
+                        <p>Elemen ini digunakan untuk memberi space atau baris baru pada halaman html. Untuk membuat
+                            elemen ini, digunakanlah tag &lt;br></p>
+                        <table>
+                            <tr>
+                                <th>Contoh Elemen</th>
+                                <th>Nama Elemen</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        &lt;head> <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Elemen Baris Baru&lt;/title>
+                                        <br>&lt;/head>
+                                        <br>&lt;body>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&lt;/body>
+                                    </p>
+                                </td>
+                                <td>Elemen Baris Baru</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>5. Elemen Komentar</strong></h5>
+                        </li>
+                        <p>Elemen ini digunakan untuk mengkomentari sebuah blok kode, sehingga tidak ditampilkan di
+                            halaman web. Untuk membuat elemen ini, digunakanlah tag &lt;!-- --></p>
+                        <table>
+                            <tr>
+                                <th>Contoh Elemen</th>
+                                <th>Nama Elemen</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        &lt;head> <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Elemen Komentar&lt;/title>
+                                        <br>&lt;/head>
+                                        <br>&lt;body>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Apapun yang ditulis disini adalah sebuah
+                                        komentar -->
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>
+                                        Disini merupakan paragraf
+                                        &lt;/p>
+                                        <br>&lt;/body>
+                                    </p>
+                                </td>
+                                <td>Elemen Komentar</td>
+                            </tr>
+                        </table>
+                    </ol>
+                </div>
+            </div>
+            <hr>
+            <div class="atribut-html">
+                <div class="atribut-html-judul">
+                    <!-- <h3>CARA KERJA HTML</h3> -->
+                    <h4>~ ATRIBUT HTML ~</h4>
+                </div>
+                <div class="atribut-html-isi">
+                    <p>
+                        Atribut adalah informasi atau perintah tambahan yang berada dalam elemen. Atribut ini berfungsi
+                        sebagai penjelas perintah tag pada elemen. Misalnya, <em>&lt;img src=”gambar.jpg” alt “Bunga
+                            Matahari.”></em>. Tag &lt;img> memiliki atribut khusus yaitu (scr) dan (alt) yang artinya
+                        browser harus menampilkan gambar.jpg dengan alt text “Bunga Matahari”.
+                        <br><br>
+                        Dari contoh di atas, dapat diketahui juga kalau jumlah atribut dalam sebuah tag bisa lebih dari
+                        satu. Meski demikian, tidak semua atribut bisa digunakan dalam sebuah tag. Terdapat 3 jenis
+                        atribut dalam html. Yang pertama adalah atribut global, kedua adalah atribut event, dan yang
+                        terakhir adalah atribut khusus.
+                    </p>
+                    <br><br>
+                    <ol>
+                        <li>
+                            <h5><strong>1. Atribut Global</strong></h5>
+                        </li>
+                        <!-- <p>Elemen heading merupakan elemen yang biasa digunakan untuk membuat judul. Elemen heading dibuah menggunakan tag &lt;h> dengan nilai 1 hingga 6. Berikut ini adalah contoh penulisan elemen heading pada html</p> -->
+                        <br>
+                        <table>
+                            <tr>
+                                <th>Atribut</th>
+                                <th>Keterangan</th>
+                            </tr>
+                            <tr>
+                                <td>id</td>
+                                <td>Memberikan id unik pada sebuah elemen html</td>
+                            </tr>
+                            <tr>
+                                <td>class</td>
+                                <td>Memberikan sebuah class pada elemen html</td>
+                            </tr>
+                            <tr>
+                                <td>style</td>
+                                <td>Merupakan atribut yang digunakan untuk menyisipkan style khusus untuk elemen itu
+                                    sendiri</td>
+                            </tr>
+                            <tr>
+                                <td>title</td>
+                                <td>digunakan sebagai judul informasi tambahan pada sebuah element.</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>2. Atribut Event</strong></h5>
+                        </li>
+                        <!-- <p>Elemen heading merupakan elemen yang biasa digunakan untuk membuat judul. Elemen heading dibuah menggunakan tag &lt;h> dengan nilai 1 hingga 6. Berikut ini adalah contoh penulisan elemen heading pada html</p> -->
+                        <br>
+                        <table>
+                            <tr>
+                                <th>Atribut</th>
+                                <th>Keterangan</th>
+                            </tr>
+                            <tr>
+                                <td>onclick</td>
+                                <td>Atribut yang dijalankan ketika elemen di klik</td>
+                            </tr>
+                            <tr>
+                                <td>onkeyup</td>
+                                <td>Atribut yang dijalankan ketika melepas tombol pada keyboard</td>
+                            </tr>
+                            <tr>
+                                <td>onkeydown</td>
+                                <td>Atribut yang dijalankan ketika menekan tombol pada keyboard</td>
+                            </tr>
+                            <tr>
+                                <td>onmouseover</td>
+                                <td>Atribut yang dijalankan ketika pointer berada di atas elemen</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <li>
+                            <h5><strong>3. Atribut Khusus</strong></h5>
+                        </li>
+                        <!-- <p>Elemen heading merupakan elemen yang biasa digunakan untuk membuat judul. Elemen heading dibuah menggunakan tag &lt;h> dengan nilai 1 hingga 6. Berikut ini adalah contoh penulisan elemen heading pada html</p> -->
+                        <br>
+                        <table>
+                            <tr>
+                                <th>Atribut</th>
+                                <th>Keterangan</th>
+                            </tr>
+                            <tr>
+                                <td>href</td>
+                                <td>Atribut href berisi URL halaman website yang dibuka pada saat link diklik</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Atribut src dipakai pada image (tag img). Atribut src berisi lokasi gambar atau URL
+                                    gambar yang ditampilkan pada image</td>
+                            </tr>
+                            <tr>
+                                <td>width / height</td>
+                                <td>Atribut width dan height dipakai pada tag img. Atribut width dan height berisi
+                                    ukuran gambar pada saat ditampilkan.</td>
+                            </tr>
+                            <tr>
+                                <td>title</td>
+                                <td>digunakan sebagai judul informasi tambahan pada sebuah element.</td>
+                            </tr>
+                        </table>
+                        <br><br>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="about" id="about">
+        <section class="container">
+            <div class="image-about">
+                <img src="foto_prihan.jpeg" alt="" width="300px">
+            </div>
+            <div class="text-about">
+                <div class="discover">
+                    <p>Discover</p>
+                </div>
+                <div class="about-me">
+                    <p>About Me</p>
+                </div>
+                <p class="desc-text">Nama saya adalah <span class="bold-bro">I Gusti Putu Ngurah Prihandana</span>, saya
+                    berkuliah di Fakultas Teknik Universitas Udayana, jurusan Teknologi Informasi. Nim saya adalah <span
+                        class="bold-bro">2105551079</span>. Web ini saya buat untuk menyelesaikan mata kuliah Pemrograman Internet kelas E.</p>
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text"><a href="biodata.html" target="_blank">My Biodata</a></span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <div class="daftar-pustaka">
+        <section class="container">
+            <h3>DAFTAR PUSTAKA</h3>
+            <div class="pustaka-container">
+                <div class="pustaka-item">
+                    <h4>W3School</h4>
+                    <a href="https://www.w3schools.com/html/" target="_blank">Link Here</a>
+                </div>
+                <div class="pustaka-item">
+                    <h4>Niaga Hoster</h4>
+                    <a href="https://www.niagahoster.co.id/blog/html-adalah/" target="_blank">Link Here</a>
+                </div>
+                <div class="pustaka-item">
+                    <h4>Apacara</h4>
+                    <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html" target="_blank">Link
+                        Here</a>
+                </div>
+                <div class="pustaka-item">
+                    <h4>Petanikode</h4>
+                    <a href="https://www.petanikode.com/tutorial/html/" target="_blank">Link Here</a>
+                </div>
+                <div class="pustaka-item">
+                    <h4>Merdeka.com</h4>
+                    <a href="https://www.merdeka.com/trending/pengertian-html-lengkap-dengan-fungsi-dan-sejarah-kemunculannya-kln.html"
+                        target="_blank">Link Here</a>
+                </div>
+                <div class="pustaka-item">
+                    <h4>Hostinger</h4>
+                    <a href="https://www.hostinger.co.id/tutorial/apa-itu-html" target="_blank">Link Here</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <section class="container">
+            <p>
+                &copy; 2022 by Ngurah Prihandana. All right reserved
+                <br><br>
+                Tanpa template, bikinan sendiri :D
+            </p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
